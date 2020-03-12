@@ -47,6 +47,7 @@ class ProductItem extends Component {
                             <form onSubmit={this.onEditSubmit}>
                                 <input placeholder="Name" ref={nameInput => this.nameInput = nameInput} defaultValue={name} />
                                 <input placeholder="Price" ref={priceInput => this.priceInput = priceInput} defaultValue={price} />
+                                <input placeholder="Date" ref={nameInput => this.nameInput = nameInput} defaultValue={name} />
                                 <button>Edit</button>
                             </form>
                         ) : 
@@ -55,6 +56,8 @@ class ProductItem extends Component {
                                 <span>{name}</span>
                                 {` | `}
                                 <span>{price}</span>
+                                {` | `}
+                                <span>{date}</span>
                                 {` | `}
                                 <button onClick={this.onEdit}>Edit</button>
                                 {` | `}

@@ -12,6 +12,14 @@ const products = [
   {
     name: 'iphone',
     price: 650
+  },
+  {
+    name: 'iphone',
+    price: 650
+  },
+  {
+    name: 'iphone',
+    price: 650
   }
 ];
 
